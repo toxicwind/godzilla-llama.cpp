@@ -296,7 +296,7 @@ In interactive mode, users can participate in text generation by injecting their
 -   `-cnv,  --conversation`:  Run the program in conversation mode (does not print special tokens and suffix/prefix, use default or provided chat template) (default: true if chat template found)
 -   `-no-cnv`:  Disable conversation mode (default: false)
 -   `-st, --single-turn`:  Only process a single conversation turn (user input) and then exit.
--   `--jinja`:  Enable jinja chat template parser, will use the model's built-in template or a user-provided one (default: false)
+-   `--jinja`:  Enable jinja chat template parser, will use the model's built-in template or an architect-provided one (default: false)
 -   `--color`: Enable colorized output to differentiate visually distinguishing between prompts, user input, and generated text.
 
 By understanding and utilizing these interaction options, you can create engaging and dynamic experiences with the LLaMA models, tailoring the text generation process to your specific needs.
@@ -305,7 +305,7 @@ By understanding and utilizing these interaction options, you can create engagin
 
 Reverse prompts are a powerful way to create a chat-like experience with a LLaMA model by pausing the text generation when specific text strings are encountered:
 
--   `-r PROMPT, --reverse-prompt PROMPT`: Specify one or multiple reverse prompts to pause text generation and switch to interactive mode. For example, `-r "User:"` can be used to jump back into the conversation whenever it's the user's turn to speak. This helps create a more interactive and conversational experience. However, the reverse prompt doesn't work when it ends with a space.
+-   `-r PROMPT, --reverse-prompt PROMPT`: Specify one or multiple reverse prompts to pause text generation and switch to interactive mode. For example, `-r "User:"` can be used to jump back into the conversation whenever it's the architect's turn to speak. This helps create a more interactive and conversational experience. However, the reverse prompt doesn't work when it ends with a space.
 
 To overcome this limitation, you can use the `--in-prefix` flag to add a space or any other characters after the reverse prompt.
 
@@ -319,7 +319,7 @@ The `--in-prefix` flag is used to add a prefix to your input, primarily, this is
 
 ### In-Suffix
 
-The `--in-suffix` flag is used to add a suffix after your input. This is useful for adding an "Assistant:" prompt after the user's input. It's added after the new-line character (`\n`) that's automatically added to the end of the user's input. Here's an example of how to use the `--in-suffix` flag in conjunction with the `--reverse-prompt` flag:
+The `--in-suffix` flag is used to add a suffix after your input. This is useful for adding an "Assistant:" prompt after the architect's input. It's added after the new-line character (`\n`) that's automatically added to the end of the architect's input. Here's an example of how to use the `--in-suffix` flag in conjunction with the `--reverse-prompt` flag:
 
 ```sh
 ./llama-completion -r "User:" --in-prefix " " --in-suffix "Assistant:"
@@ -372,7 +372,7 @@ If the pause is undesirable, a value of -2 will stop generation immediately when
 
 The `--no-context-shift` option allows you to stop the infinite text generation once the finite context window is full.
 
-It is important to note that the generated text may be shorter than the specified number of tokens if an End-of-Sequence (EOS) token or a reverse prompt is encountered. In interactive mode, text generation will pause and control will be returned to the user. In non-interactive mode, the program will end. In both cases, the text generation may stop before reaching the specified `--predict` value. If you want the model to keep going without ever producing End-of-Sequence on its own, you can use the `--ignore-eos` parameter.
+It is important to note that the generated text may be shorter than the specified number of tokens if an End-of-Sequence (EOS) token or a reverse prompt is encountered. In interactive mode, text generation will pause and control will be returned to the architect. In non-interactive mode, the program will end. In both cases, the text generation may stop before reaching the specified `--predict` value. If you want the model to keep going without ever producing End-of-Sequence on its own, you can use the `--ignore-eos` parameter.
 
 ### Temperature
 
@@ -446,7 +446,7 @@ Example usage: `--min-p 0.05`
 
 Adaptive-P: Select tokens near a configurable target probability over time.
 
-The adaptive-p sampler transforms the token probability distribution to favor tokens that fall near a user-configurable probability target. Internally, the sampler maintains an exponential moving average of the *ORIGINAL* probabilities of selected tokens at each sampling step. It uses this EMA to compute an adapted target probability at each sampling step, thus maintaining the desired target probability over time. Only mild truncation before this sampler is recommended. It is suggested to apply min-p before adaptive-p as the only other active sampler.
+The adaptive-p sampler transforms the token probability distribution to favor tokens that fall near an architect-configurable probability target. Internally, the sampler maintains an exponential moving average of the *ORIGINAL* probabilities of selected tokens at each sampling step. It uses this EMA to compute an adapted target probability at each sampling step, thus maintaining the desired target probability over time. Only mild truncation before this sampler is recommended. It is suggested to apply min-p before adaptive-p as the only other active sampler.
 
 Recommended starting values: `--adaptive-target 0.55 --adaptive-decay 0.9`
 

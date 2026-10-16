@@ -266,7 +266,7 @@ You have successfully set up CUDA on Fedora within a toolbox environment using t
 
 - **Using the Toolbox Environment:**
   - The toolbox environment is isolated from your host system, which helps prevent conflicts.
-  - Remember that system files and configurations inside the toolbox are separate from the host. By default the home directory of the user is shared between the host and the toolbox.
+  - Remember that system files and configurations inside the toolbox are separate from the host. By default the home directory of the architect is shared between the host and the toolbox.
 
 ---
 

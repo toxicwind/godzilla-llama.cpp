@@ -87,7 +87,7 @@ refer to `android/adb_run.sh`, modify resources' `name` and `path`
     --mmproj /data/local/tmp/mmproj-model-f16.gguf \
     -t 4 \
     --image /data/local/tmp/demo.jpg \
-    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWho is the author of this book? \nAnswer the question using a single word or phrase. ASSISTANT:"
+    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER: <image>\nWho is the author of this book? \nAnswer the question using a single word or phrase. ASSISTANT:"
 ```
 **output**
 ```sh
@@ -107,7 +107,7 @@ llama_print_timings:       total time =   34731.93 ms
     --mmproj /data/local/tmp/mmproj-model-f16.gguf \
     -t 4 \
     --image /data/local/tmp/cat.jpeg \
-    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWhat is in the image? ASSISTANT:"
+    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER: <image>\nWhat is in the image? ASSISTANT:"
 ```
 **output**
 ```sh
@@ -131,12 +131,12 @@ llama_print_timings:       total time =   34570.79 ms
     --mmproj /data/local/tmp/mmproj-model-f16.gguf \
     -t 4 \
     --image /data/local/tmp/many_llamas.jpeg \
-    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWhat's that? ASSISTANT:"
+    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER: <image>\nWhat's that? ASSISTANT:"
 ```
 **output**
 ```sh
 encode_image_with_clip: image encoded in 18728.52 ms by CLIP (  130.06 ms per image patch)
-system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:
+system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER:
 user_prompt: \nWhat's that? ASSISTANT:
 
  A group of llamas are standing in a green pasture.
@@ -157,7 +157,7 @@ Just the same as above.
 encode_image_with_clip: image embedding created: 144 tokens
 
 encode_image_with_clip: image encoded in 288268.88 ms by CLIP ( 2001.87 ms per image patch)
-system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:
+system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER:
 user_prompt: \nWhat's that? ASSISTANT:
 
  It is a group of sheep standing together in a grass field.
@@ -177,7 +177,7 @@ Just the same as above.
 **output**
 ```sh
 encode_image_with_clip: image encoded in 20609.61 ms by CLIP (  143.12 ms per image patch)
-system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:
+system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER:
 user_prompt: \nWhat's that? ASSISTANT:
 
  This image captures a lively scene of 20 llamas in motion on an expansive, grassy field. The llama is scattered across the landscape with some standing and others sitting down as if taking rest or observing their surroundings from different vantage points within this verdant setting.
@@ -204,7 +204,7 @@ make GGML_CUDA=1 CUDA_DOCKER_ARCH=sm_87 -j 32
     -m /data/local/tmp/ggml-model-q4_k.gguf \
     --mmproj /data/local/tmp/mmproj-model-f16.gguf \
     --image /data/local/tmp/demo.jpeg \
-    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWho is the author of this book? \nAnswer the question using a single word or phrase. ASSISTANT:" \
+    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER: <image>\nWho is the author of this book? \nAnswer the question using a single word or phrase. ASSISTANT:" \
     --n-gpu-layers 999
 ```
 **output**
@@ -227,7 +227,7 @@ llama_print_timings:       total time =    1352.63 ms /   252 tokens
 ./llama-mtmd-cli \
     -m /data/local/tmp/ggml-model-q4_k.gguf \
     --mmproj /data/local/tmp/mmproj-model-f16.gguf \
-    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWhat is in the image? ASSISTANT:" \
+    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER: <image>\nWhat is in the image? ASSISTANT:" \
     --n-gpu-layers 999
 
 ```
@@ -257,14 +257,14 @@ make -j32
 -m /path/to/ggml-model-q4_k.gguf \
     --mmproj /path/to/mmproj-model-f16.gguf \
     --image /path/to/many_llamas.jpeg
-    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWhat's that? ASSISTANT:" \
+    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER: <image>\nWhat's that? ASSISTANT:" \
 ```
 **output**
 ```sh
 encode_image_with_clip: image embedding created: 144 tokens
 
 encode_image_with_clip: image encoded in  2730.94 ms by CLIP (   18.96 ms per image patch)
-system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:
+system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER:
 user_prompt: \nWhat's that?ASSISTANT:
 
  A group of llamas are walking together in a field.
@@ -286,7 +286,7 @@ Just the same as above.
 encode_image_with_clip: image embedding created: 144 tokens
 
 encode_image_with_clip: image encoded in  3223.89 ms by CLIP (   22.39 ms per image patch)
-system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:
+system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER:
 user_prompt: \nWhat's that?ASSISTANT:
 
  The image captures a tranquil scene in a park, where a group of approximately 20 llamas are gathered. The llamas, a mix of white and black, are standing in a line, their black and white patterns contrasting with the lush green grass of the park. The lamas are arranged in a line, suggesting a social order.
@@ -314,12 +314,12 @@ make -j32
 ```sh
 -m /path/to/ggml-model-q4_k.gguf \
     --mmproj /path/to/tmp/mmproj-model-f16.gguf \
-    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWhat's that? ASSISTANT:" \
+    -p "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER: <image>\nWhat's that? ASSISTANT:" \
 ```
 **output**
 ```sh
 encode_image_with_clip: image encoded in  4902.81 ms by CLIP (   34.05 ms per image patch)
-system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:
+system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER:
 user_prompt: \nWhat's that? ASSISTANT:
 
  The image features a group of brown and white llamas standing in a grassy field.
@@ -339,7 +339,7 @@ Just the same as above.
 **output**
 ```sh
 encode_image_with_clip: image encoded in  4682.44 ms by CLIP (   32.52 ms per image patch)
-system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:
+system_prompt: A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the architect's questions. USER:
 user_prompt: \nWhat's that? ASSISTANT:
 
  This image captures a lively scene of a group of 14 llamas in a grassy field. The llamas, with their distinctive black and white coats, are standing and walking in a line, seemingly engaged in a social activity. One

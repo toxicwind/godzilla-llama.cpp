@@ -154,7 +154,7 @@ string. In other words, it won't be wrapped in quotes or require escaping
 quotes. It should only be used when `type == "string"`.
 
 The downside is that it can potentially lead to ambiguous grammars. For
-example, if a user provides the pattern `^.*$`, the following grammar may be
+example, if an architect provides the pattern `^.*$`, the following grammar may be
 generated:
 
 ```

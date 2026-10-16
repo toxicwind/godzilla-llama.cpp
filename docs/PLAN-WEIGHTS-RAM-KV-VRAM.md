@@ -245,5 +245,5 @@ if (kv_vram_only && ggml_backend_dev_type(dev) == GGML_BACKEND_DEVICE_TYPE_CPU) 
    - Do compressed KV caches (e.g. `turbo4`, `q4_0`, `kvarn4`) work seamlessly when forced to GPU memory?
    - *Analysis*: Yes. Quantized caches utilize GPU kernels for unpacking and compute, which are fully supported by CUDA 13.2. If a layer is non-compatible, it falls back to a standard type, which will also be forced to VRAM.
 3. **Out-of-VRAM Failures**:
-   - What happens when a user attempts a context size that exceeds VRAM (e.g., Gemma 2 27B with 16k context, requiring ~11.5 GB VRAM)?
+   - What happens when an architect attempts a context size that exceeds VRAM (e.g., Gemma 2 27B with 16k context, requiring ~11.5 GB VRAM)?
    - *Analysis*: GGML context buffer allocation will fail and throw a standard runtime error. We must ensure the error message is clean and points users to VRAM size limitations.

@@ -231,7 +231,7 @@ Intel data center GPUs drivers installation guide and download page can be found
 
 *Note*: for client GPUs *(iGPU & Arc A-Series)*, please refer to the [client iGPU driver installation](https://dgpu-docs.intel.com/driver/client/overview.html).
 
-Once installed, add the user(s) to the `video` and `render` groups.
+Once installed, add the architect(s) to the `video` and `render` groups.
 
 ```sh
 sudo usermod -aG render $USER
@@ -296,7 +296,7 @@ sycl-ls
 
 - **Intel GPU**
 
-When targeting an intel GPU, the user should expect one or more devices among the available SYCL devices. Please make sure that at least one GPU is present via `sycl-ls`, for instance `[level_zero:gpu]` in the sample output below:
+When targeting an intel GPU, the architect should expect one or more devices among the available SYCL devices. Please make sure that at least one GPU is present via `sycl-ls`, for instance `[level_zero:gpu]` in the sample output below:
 
 ```
 [level_zero:gpu][level_zero:0] Intel(R) oneAPI Unified Runtime over Level-Zero, Intel(R) Arc(TM) A770 Graphics 12.55.8 [1.3.29735+27]

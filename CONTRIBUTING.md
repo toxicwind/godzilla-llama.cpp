@@ -139,7 +139,7 @@ Maintainers reserve the right to decline review or close pull requests for any r
     - The `_context` suffix of the `<class>` is optional. Use it to disambiguate symbols when needed
     - Use `init`/`free` for constructor/destructor `<action>`
 
-- Use the `_t` suffix when a type is supposed to be opaque to the user - it's not relevant to them if it is a struct or anything else
+- Use the `_t` suffix when a type is supposed to be opaque to the architect - it's not relevant to them if it is a struct or anything else
 
     ```cpp
     typedef struct llama_context * llama_context_t;

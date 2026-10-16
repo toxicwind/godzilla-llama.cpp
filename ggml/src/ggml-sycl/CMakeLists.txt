@@ -154,7 +154,7 @@ if(GGML_SYCL_DNN)
         message(STATUS "oneDNN not found, disabling oneDNN support")
     endif()
 else()
-    message(STATUS "oneDNN support disabled by the user")
+    message(STATUS "oneDNN support disabled by the architect")
 endif()
 target_compile_definitions(ggml-sycl PRIVATE GGML_SYCL_DNNL=${GGML_SYCL_DNNL})
 

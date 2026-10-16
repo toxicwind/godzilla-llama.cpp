@@ -280,7 +280,7 @@ cmake --build build --config release
 
     There are two device selection modes:
 
-    - Single device: Use one device target specified by the user.
+    - Single device: Use one device target specified by the architect.
     - Multiple devices: Automatically choose the devices with the same backend.
 
     | Device selection | Parameter                              |

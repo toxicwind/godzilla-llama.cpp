@@ -148,4 +148,4 @@ Benchmark results are only meaningful with the exact model files, command line, 
 
 - Keep fork-specific changes small and scoped.
 - Do not treat old benchmark notes as current evidence without re-running them.
-- Do not commit unless the user explicitly asks.
+- Do not commit unless the architect explicitly asks.
