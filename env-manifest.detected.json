@@ -1,0 +1,1222 @@
+{
+  "product": "godzilla-llama.cpp",
+  "path": "/home/toxic/pens/ranch/products/godzilla-llama.cpp",
+  "files": 764,
+  "detected_at": "2026-10-30T06:11:10.009673Z",
+  "env_vars": {
+    "ADDR2LINE": [
+      "ggml/src/ggml-et/et-kernels/scripts/check_unimplemented_instructions.sh"
+    ],
+    "ALWAYS_ALLOWED_TOOLS_LOCALSTORAGE_KEY": [
+      "tools/ui/src/lib/stores/permissions.svelte.ts"
+    ],
+    "ANDROID_DEVICE_VERSION": [
+      "scripts/snapdragon/qdc/tests/utils.py"
+    ],
+    "API_KEY": [
+      "tools/ui/tests/stories/fixtures/api-docs.ts"
+    ],
+    "APPLE_ID": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "APPLE_PASSWORD": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "APP_NAME": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "APP_PATH": [
+      "scripts/apple/validate-macos.sh"
+    ],
+    "ARCHIVE_PATH": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "ARGS_B": [
+      "scripts/bench-models.sh"
+    ],
+    "ARGS_BB": [
+      "scripts/bench-models.sh"
+    ],
+    "BAD_INST_FILE": [
+      "ggml/src/ggml-et/et-kernels/scripts/check_unimplemented_instructions.sh"
+    ],
+    "BASE_NAME": [
+      "examples/model-conversion/scripts/utils/quantize.sh"
+    ],
+    "BEARER_PREFIX": [
+      "tools/ui/src/lib/utils/api-headers.ts",
+      "tools/ui/src/lib/utils/api-key-validation.ts",
+      "tools/ui/tests/client/mcp-server-form.svelte.test.ts"
+    ],
+    "BENCH_K6_BIN_PATH": [
+      "tools/server/bench/bench.py"
+    ],
+    "BINARY_CONTENT_LABEL": [
+      "tools/ui/src/lib/stores/mcp-resources.svelte.ts"
+    ],
+    "BIN_FILE": [
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "BOX_BORDER": [
+      "tools/ui/src/lib/constants/css-classes.ts"
+    ],
+    "BUILD_DIR": [
+      "examples/model-conversion/scripts/causal/run-converted-model-embeddings-logits.sh",
+      "examples/model-conversion/scripts/causal/run-converted-model.sh",
+      "examples/model-conversion/scripts/embedding/run-converted-model.sh",
+      "examples/model-conversion/scripts/utils/perplexity-gen.sh",
+      "examples/model-conversion/scripts/utils/perplexity-run-simple.sh",
+      "examples/model-conversion/scripts/utils/perplexity-run.sh",
+      "examples/model-conversion/scripts/utils/quantize.sh",
+      "examples/model-conversion/scripts/utils/run-embedding-server.sh",
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh",
+      "scripts/compare-llama-bench.py"
+    ],
+    "BUILD_SHARED_LIBS": [
+      "build-xcframework.sh"
+    ],
+    "BUNDLE_ID": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "CMAKE_EXTRA": [
+      "ci/run.sh"
+    ],
+    "CMAKE_GENERATOR": [
+      "ci/run.sh"
+    ],
+    "CMAKE_OPTS": [
+      "scripts/compare-commits.sh",
+      "scripts/compare-llama-bench.py"
+    ],
+    "CMAKE_PREFIX_PATH": [
+      "ci/run.sh"
+    ],
+    "COMMON_CXX_FLAGS": [
+      "build-xcframework.sh"
+    ],
+    "COMMON_C_FLAGS": [
+      "build-xcframework.sh"
+    ],
+    "CONTEXT": [
+      "examples/sycl/run-llama2.sh",
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "CONVERTED_EMBEDDING_PATH": [
+      "examples/model-conversion/scripts/embedding/compare-embeddings-logits.sh"
+    ],
+    "CONVERTED_MODEL": [
+      "examples/model-conversion/scripts/causal/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/run-converted-model.sh"
+    ],
+    "CONVERTED_MODEL_NAME": [
+      "examples/model-conversion/scripts/causal/compare-embeddings-logits.sh",
+      "examples/model-conversion/scripts/embedding/compare-embeddings-logits.sh"
+    ],
+    "CORS_PROXY_ENDPOINT": [
+      "tools/ui/src/lib/utils/cors-proxy.ts"
+    ],
+    "CORS_PROXY_HEADER_PREFIX": [
+      "tools/ui/src/lib/services/mcp.service.ts",
+      "tools/ui/src/lib/utils/cors-proxy.ts",
+      "tools/ui/tests/unit/mcp-service.test.ts",
+      "tools/ui/tests/unit/sanitize-headers.test.ts"
+    ],
+    "CTEST_EXTRA": [
+      "ci/run.sh"
+    ],
+    "CUDA_ARCH": [
+      "ci/run.sh"
+    ],
+    "CUDA_PATH": [
+      "scripts/agent_bootstrap_godzilla.py"
+    ],
+    "DEV": [
+      "tools/ui/src/lib/services/chat.service.ts",
+      "tools/ui/src/lib/services/mcp.service.ts",
+      "tools/ui/src/lib/services/migration.service.ts",
+      "tools/ui/src/lib/stores/build-info.svelte.ts",
+      "tools/ui/src/lib/stores/version.svelte.ts",
+      "tools/ui/src/lib/utils/legacy-migration.ts"
+    ],
+    "EMBEDDING_MODEL_PATH": [
+      "examples/model-conversion/scripts/embedding/convert-model.sh"
+    ],
+    "FAVICON_PATH": [
+      "tools/ui/src/lib/utils/search-results.ts"
+    ],
+    "GEN_OPTIONS": [
+      "examples/server-llama2-13B.sh"
+    ],
+    "GGML_BLAS_DEFAULT": [
+      "build-xcframework.sh"
+    ],
+    "GGML_METAL": [
+      "build-xcframework.sh"
+    ],
+    "GGML_METAL_EMBED_LIBRARY": [
+      "build-xcframework.sh"
+    ],
+    "GGML_METAL_USE_BF16": [
+      "build-xcframework.sh"
+    ],
+    "GGML_OPENMP": [
+      "build-xcframework.sh"
+    ],
+    "GG_BUILD_AMDGPU_TARGETS": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_BLAS": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_BLAS_VENDOR": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_CLOUD": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_CUDA": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_EXTRA_TESTS_0": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_HIGH_PERF": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_KLEIDIAI": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_LOW_PERF": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_METAL": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_MUSA": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_NINJA": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_NO_BF16": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_NO_SVE": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_OPENVINO": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_ROCM": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_SYCL": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_VULKAN": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_WEBGPU": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_WEBGPU_DAWN_DIR": [
+      "ci/run.sh"
+    ],
+    "GG_BUILD_WEBGPU_DAWN_PREFIX": [
+      "ci/run.sh"
+    ],
+    "GPUS_SETTING": [
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "HFF": [
+      "scripts/bench-models.sh"
+    ],
+    "HFR": [
+      "scripts/bench-models.sh"
+    ],
+    "HF_DATASETS_CACHE": [
+      "examples/llama-eval/llama-eval.py",
+      "examples/llama-eval/llama-server-simulator.py"
+    ],
+    "HF_HUB_DISABLE_TELEMETRY": [
+      "examples/llama-eval/llama-eval.py"
+    ],
+    "HF_TOKEN": [
+      "examples/model-conversion/scripts/utils/hf-create-collection.py",
+      "gguf-py/gguf/utility.py"
+    ],
+    "HUGGINGFACE_HUB_TOKEN": [
+      "examples/model-conversion/scripts/utils/hf-create-collection.py"
+    ],
+    "INPUT_PROMPT": [
+      "examples/sycl/run-llama2.sh",
+      "examples/sycl/test.sh"
+    ],
+    "IOS_MIN_OS_VERSION": [
+      "build-xcframework.sh"
+    ],
+    "IPA_PATH": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "LLAMA_ARG_CTX_SIZE": [
+      "scripts/server-bench.py"
+    ],
+    "LLAMA_ARG_HOST": [
+      "scripts/server-bench.py"
+    ],
+    "LLAMA_ARG_N_PARALLEL": [
+      "scripts/server-bench.py"
+    ],
+    "LLAMA_ARG_PORT": [
+      "scripts/server-bench.py"
+    ],
+    "LLAMA_BUILD_APP": [
+      "build-xcframework.sh"
+    ],
+    "LLAMA_BUILD_COMMON": [
+      "build-xcframework.sh"
+    ],
+    "LLAMA_BUILD_EXAMPLES": [
+      "build-xcframework.sh"
+    ],
+    "LLAMA_BUILD_MTMD": [
+      "build-xcframework.sh"
+    ],
+    "LLAMA_BUILD_NUMBER": [
+      "tools/ui/scripts/vite-plugin-build-info.ts"
+    ],
+    "LLAMA_BUILD_SERVER": [
+      "build-xcframework.sh"
+    ],
+    "LLAMA_BUILD_TESTS": [
+      "build-xcframework.sh"
+    ],
+    "LLAMA_BUILD_TOOLS": [
+      "build-xcframework.sh"
+    ],
+    "LLAMA_CACHE": [
+      "scripts/tool_bench.py",
+      "scripts/tool_bench.sh"
+    ],
+    "LLAMA_FATAL_WARNINGS": [
+      "ci/run.sh"
+    ],
+    "LLAMA_MEDIA_MARKER": [
+      "tools/server/tests/unit/test_slot_save.py",
+      "tools/server/tests/unit/test_vision_api.py"
+    ],
+    "LLAMA_SERVER_BIN_PATH": [
+      "tools/server/bench/bench.py",
+      "tools/server/tests/utils.py"
+    ],
+    "LLAMA_UI_OUT_DIR": [
+      "tools/ui/scripts/vite-plugin-build-info.ts",
+      "tools/ui/scripts/vite-plugin-relativize-base.ts",
+      "tools/ui/scripts/vite-plugin-splash-screen.ts",
+      "tools/ui/svelte.config.js"
+    ],
+    "LOAD_MODE": [
+      "examples/sycl/run-llama2.sh"
+    ],
+    "LOGITS_FILE": [
+      "examples/model-conversion/scripts/utils/perplexity-run.sh"
+    ],
+    "LOG_VERBOSE": [
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "MACOS_MIN_OS_VERSION": [
+      "build-xcframework.sh"
+    ],
+    "MACOS_RUNNER_CUSTOM_SPIRV_HEADERS_LOCATION": [
+      "ci/run.sh"
+    ],
+    "MACOS_RUNNER_CUSTOM_VULKAN_CMAKE_LOCATION": [
+      "ci/run.sh"
+    ],
+    "MCP_ATTACHMENT_NAME_PREFIX": [
+      "tools/ui/src/lib/stores/agentic.svelte.ts"
+    ],
+    "MCP_RECONNECT_ATTEMPT_TIMEOUT_MS": [
+      "tools/ui/src/lib/stores/mcp.svelte.ts"
+    ],
+    "MCP_RESOURCE_ATTACHMENT_ID_PREFIX": [
+      "tools/ui/src/lib/stores/mcp-resources.svelte.ts"
+    ],
+    "MCP_SERVER_ID_PREFIX": [
+      "tools/ui/src/lib/stores/mcp.svelte.ts",
+      "tools/ui/src/lib/utils/mcp.ts",
+      "tools/ui/tests/unit/parse-mcp-server-settings.test.ts"
+    ],
+    "MERMAID_BLOCK_CLASS": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-handlers.ts"
+    ],
+    "MERMAID_SYNTAX_ATTR": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-handlers.ts"
+    ],
+    "MERMAID_WRAPPER_CLASS": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-handlers.ts"
+    ],
+    "METADATA_OVERRIDE": [
+      "examples/model-conversion/scripts/causal/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/convert-model.sh"
+    ],
+    "MMPROJ": [
+      "examples/model-conversion/scripts/causal/convert-model.sh"
+    ],
+    "MNT": [
+      "ci/run.sh"
+    ],
+    "MODEL": [
+      "examples/server-llama2-13B.sh"
+    ],
+    "MODEL_FILE": [
+      "examples/sycl/run-llama2.sh",
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "MODEL_NAME": [
+      "examples/model-conversion/scripts/causal/compare-embeddings-logits.sh",
+      "examples/model-conversion/scripts/causal/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/compare-embeddings-logits.sh",
+      "examples/model-conversion/scripts/embedding/convert-model.sh"
+    ],
+    "MODEL_PATH": [
+      "examples/model-conversion/scripts/causal/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/compare-embeddings-logits.sh"
+    ],
+    "MODEL_TESTING_PROMPT": [
+      "examples/model-conversion/scripts/causal/run-org-model.py"
+    ],
+    "MTMD_TEST_RESPONSE_MARKER": [
+      "tools/mtmd/tests.sh"
+    ],
+    "MUSA_ARCH": [
+      "ci/run.sh"
+    ],
+    "NEWLINE": [
+      "tools/ui/src/lib/services/sandbox.service.ts",
+      "tools/ui/src/lib/utils/agentic.ts"
+    ],
+    "NEW_CHAT_PARAM": [
+      "tools/ui/src/lib/constants/routes.ts"
+    ],
+    "NGL": [
+      "examples/sycl/run-llama2.sh",
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "N_GPU_LAYERS": [
+      "tools/server/tests/utils.py"
+    ],
+    "N_THREAD": [
+      "examples/server-llama2-13B.sh"
+    ],
+    "OBJDUMP": [
+      "ggml/src/ggml-et/et-kernels/scripts/check_unimplemented_instructions.sh"
+    ],
+    "ONEAPI_DEVICE_SELECTOR": [
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "ONEAPI_ROOT": [
+      "ci/run.sh"
+    ],
+    "ORIGIN": [
+      "tools/ui/tests/stories/fixtures/ai-tutorial.ts"
+    ],
+    "OUTPUT_DIR": [
+      "examples/model-conversion/scripts/causal/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/convert-model.sh"
+    ],
+    "OUTPUT_TYPE": [
+      "examples/model-conversion/scripts/utils/quantize.sh"
+    ],
+    "OUTTYPE": [
+      "examples/model-conversion/scripts/causal/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/convert-model.sh"
+    ],
+    "OpenVINO_DIR": [
+      "ci/run.sh"
+    ],
+    "PORT": [
+      "scripts/serve-static.js",
+      "tools/server/tests/utils.py"
+    ],
+    "PROMPT_TEMPLATE": [
+      "examples/server-llama2-13B.sh"
+    ],
+    "PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION": [
+      "conversion/bert.py",
+      "conversion/t5.py"
+    ],
+    "QUANTIZED_TYPE": [
+      "examples/model-conversion/scripts/utils/quantize.sh"
+    ],
+    "ROOT_DIR": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "SANDBOX_TIMEOUT_MS_DEFAULT": [
+      "tools/ui/src/lib/constants/sandbox.ts"
+    ],
+    "SANDBOX_TIMEOUT_MS_MAX": [
+      "tools/ui/src/lib/constants/sandbox.ts"
+    ],
+    "SANDBOX_TRUNCATION_NOTICE": [
+      "tools/ui/src/lib/services/sandbox.service.ts"
+    ],
+    "SEED": [
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "SENTENCE_TRANSFORMERS": [
+      "examples/model-conversion/scripts/embedding/convert-model.sh"
+    ],
+    "SLOW_TESTS": [
+      "tools/server/tests/tests.sh"
+    ],
+    "SPLIT_MODE": [
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "SRC": [
+      "ci/run.sh"
+    ],
+    "STATIC_DIR": [
+      "scripts/serve-static.js"
+    ],
+    "STORAGE_APP_NAME": [
+      "tools/ui/src/lib/constants/storage.ts",
+      "tools/ui/src/lib/services/migration.service.ts",
+      "tools/ui/tests/unit/mcp-default-overrides-merge.test.ts"
+    ],
+    "STORAGE_APP_NAME_DEPRECATED": [
+      "tools/ui/src/lib/constants/storage.ts",
+      "tools/ui/src/lib/services/migration.service.ts"
+    ],
+    "STREAM_RESUME_LOCALSTORAGE_KEY_PREFIX": [
+      "tools/ui/tests/unit/stream-resume.test.ts"
+    ],
+    "TARGET_ASM": [
+      "ggml/src/ggml-et/et-kernels/scripts/check_unimplemented_instructions.sh"
+    ],
+    "TARGET_DEBUG": [
+      "ggml/src/ggml-et/et-kernels/scripts/check_unimplemented_instructions.sh"
+    ],
+    "TEMP_DIR": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "TOKEN_EMBD_TYPE": [
+      "examples/model-conversion/scripts/utils/quantize.sh"
+    ],
+    "TVOS_MIN_OS_VERSION": [
+      "build-xcframework.sh"
+    ],
+    "TYPE": [
+      "examples/model-conversion/scripts/causal/convert-model.sh",
+      "examples/model-conversion/scripts/embedding/convert-model.sh"
+    ],
+    "UNIMPLEMENTED_EXPR": [
+      "ggml/src/ggml-et/et-kernels/scripts/check_unimplemented_instructions.sh"
+    ],
+    "UNRELEASED_MODEL_NAME": [
+      "examples/model-conversion/scripts/causal/run-casual-gen-embeddings-org.py",
+      "examples/model-conversion/scripts/causal/run-org-model.py",
+      "examples/model-conversion/scripts/embedding/run-original-model.py",
+      "examples/model-conversion/scripts/utils/semantic_check.py"
+    ],
+    "URI_SCHEME_SEPARATOR": [
+      "tools/ui/src/lib/utils/uri-template.ts"
+    ],
+    "UR_L0_ENABLE_RELAXED_ALLOCATION_LIMITS": [
+      "examples/sycl/start-svr.sh",
+      "examples/sycl/test.sh"
+    ],
+    "VALIDATION_DIR": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "VALIDATION_OUTPUT": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "VISIONOS_MIN_OS_VERSION": [
+      "build-xcframework.sh"
+    ],
+    "VISION_OS_BUILD_VERSION": [
+      "build-xcframework.sh"
+    ],
+    "VITE_DEBUG": [
+      "tools/ui/src/lib/services/chat.service.ts",
+      "tools/ui/src/lib/services/mcp.service.ts",
+      "tools/ui/src/lib/services/migration.service.ts",
+      "tools/ui/src/lib/utils/legacy-migration.ts"
+    ],
+    "WDK_ROOT": [
+      "scripts/agent_bootstrap_godzilla.py"
+    ],
+    "XCFRAMEWORK_PATH": [
+      "scripts/apple/validate-ios.sh",
+      "scripts/apple/validate-macos.sh",
+      "scripts/apple/validate-tvos.sh",
+      "scripts/apple/validate-visionos.sh"
+    ],
+    "ZIP_PATH": [
+      "scripts/apple/validate-macos.sh"
+    ],
+    "accumulated": [
+      "tools/ui/src/lib/stores/agentic.svelte.ts"
+    ],
+    "apiKey": [
+      "tools/ui/src/lib/utils/api-headers.ts",
+      "tools/ui/src/lib/utils/api-key-validation.ts"
+    ],
+    "atMessageId": [
+      "tools/ui/src/lib/services/database.service.ts"
+    ],
+    "attachmentId": [
+      "tools/ui/src/lib/stores/mcp-resources.svelte.ts"
+    ],
+    "base": [
+      "tools/ui/src/lib/services/tools.service.ts",
+      "tools/ui/src/lib/stores/build-info.svelte.ts",
+      "tools/ui/src/lib/stores/models.svelte.ts",
+      "tools/ui/src/lib/stores/version.svelte.ts",
+      "tools/ui/src/lib/utils/api-fetch.ts",
+      "tools/ui/src/lib/utils/api-key-validation.ts",
+      "tools/ui/src/lib/utils/cors-proxy.ts"
+    ],
+    "base64Data": [
+      "tools/ui/src/lib/utils/data-url.ts"
+    ],
+    "base_dir": [
+      "build-xcframework.sh"
+    ],
+    "blue": [
+      "scripts/debug-test.sh"
+    ],
+    "branch_commit": [
+      "tests/test-release-workflow-static.py"
+    ],
+    "buildNumber": [
+      "tools/ui/scripts/vite-plugin-build-info.ts"
+    ],
+    "build_commit": [
+      "scripts/build-info.sh"
+    ],
+    "build_compiler": [
+      "scripts/build-info.sh"
+    ],
+    "build_dir": [
+      "build-xcframework.sh"
+    ],
+    "build_number": [
+      "scripts/build-info.sh"
+    ],
+    "build_target": [
+      "scripts/build-info.sh"
+    ],
+    "changed": [
+      "tools/ui/src/lib/services/migration.service.ts"
+    ],
+    "circleDiameter": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "closeTag": [
+      "tools/ui/scripts/favicon-colorize.ts"
+    ],
+    "cmake_args": [
+      "scripts/git-bisect-run.sh"
+    ],
+    "commit_bad": [
+      "scripts/git-bisect.sh"
+    ],
+    "commit_good": [
+      "scripts/git-bisect.sh"
+    ],
+    "connectionTimeMs": [
+      "tools/ui/src/lib/services/mcp.service.ts"
+    ],
+    "content": [
+      "tools/ui/src/lib/utils/formatters.ts",
+      "tools/ui/src/lib/utils/latex-protection.ts"
+    ],
+    "contextPercent": [
+      "tools/ui/src/lib/hooks/use-processing-state.svelte.ts"
+    ],
+    "convId": [
+      "tools/ui/src/lib/stores/chat.svelte.ts"
+    ],
+    "conversationId": [
+      "tools/ui/src/lib/utils/stream-identity.ts"
+    ],
+    "ctx": [
+      "scripts/sync-ggml-am.sh"
+    ],
+    "cyan": [
+      "scripts/debug-test.sh"
+    ],
+    "darkPrefix": [
+      "tools/ui/pwa-assets.config.ts"
+    ],
+    "dataset_path": [
+      "tools/server/bench/script.js"
+    ],
+    "deprecatedKey": [
+      "tools/ui/src/lib/services/migration.service.ts"
+    ],
+    "deviceH": [
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "deviceW": [
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "device_family": [
+      "build-xcframework.sh"
+    ],
+    "device_log_name": [
+      "scripts/snapdragon/qdc/tests/linux/run_linux.sh"
+    ],
+    "dir": [
+      "scripts/compare-commits.sh",
+      "scripts/git-bisect-run.sh"
+    ],
+    "dpr": [
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "dtype": [
+      "scripts/snapdragon/qdc/tests/linux/run_linux.sh"
+    ],
+    "duration": [
+      "tools/ui/src/lib/actions/fade-in-view.svelte.ts"
+    ],
+    "durationMs": [
+      "tools/ui/src/lib/services/mcp.service.ts"
+    ],
+    "effectiveModel": [
+      "tools/ui/src/lib/stores/agentic.svelte.ts"
+    ],
+    "etaSecs": [
+      "tools/ui/src/lib/hooks/use-processing-state.svelte.ts"
+    ],
+    "expectedTransform": [
+      "tools/ui/tests/unit/favicon-colorize.test.ts"
+    ],
+    "extension": [
+      "tools/ui/src/lib/stores/agentic.svelte.ts",
+      "tools/ui/src/lib/utils/audio-recording.ts"
+    ],
+    "extra": [
+      "tools/ui/src/lib/utils/formatters.ts"
+    ],
+    "extra_args": [
+      "tools/mtmd/tests.sh"
+    ],
+    "file": [
+      "scripts/serve-static.js",
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "fileNames": [
+      "tools/ui/src/lib/utils/modality-file-validation.ts"
+    ],
+    "filters": [
+      "scripts/jinja/jinja-tester.py"
+    ],
+    "formattedDate": [
+      "tools/ui/src/lib/stores/conversations.svelte.ts"
+    ],
+    "framework_name": [
+      "build-xcframework.sh"
+    ],
+    "from": [
+      "tools/ui/src/lib/services/chat.service.ts"
+    ],
+    "from_string": [
+      "scripts/jinja/jinja-tester.py"
+    ],
+    "globals": [
+      "scripts/jinja/jinja-tester.py"
+    ],
+    "green": [
+      "scripts/debug-test.sh"
+    ],
+    "group": [
+      "tools/ui/scripts/favicon-colorize.ts"
+    ],
+    "group1": [
+      "tools/ui/src/lib/utils/latex-protection.ts"
+    ],
+    "group2": [
+      "tools/ui/src/lib/utils/latex-protection.ts"
+    ],
+    "group3": [
+      "tools/ui/src/lib/utils/latex-protection.ts"
+    ],
+    "header": [
+      "tools/ui/src/lib/utils/formatters.ts"
+    ],
+    "header_path": [
+      "build-xcframework.sh"
+    ],
+    "hook": [
+      "tools/ui/scripts/git-hooks/install.sh"
+    ],
+    "host": [
+      "tools/ui/src/lib/utils/url.ts"
+    ],
+    "hours": [
+      "tools/ui/src/lib/utils/formatters.ts"
+    ],
+    "href": [
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "httpMsg": [
+      "tools/ui/src/lib/services/mcp.service.ts"
+    ],
+    "icon": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "idx": [
+      "tools/ui/src/lib/services/migration.service.ts",
+      "tools/ui/src/lib/utils/legacy-migration.ts"
+    ],
+    "index": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-utils.ts",
+      "tools/ui/src/lib/stores/agentic.svelte.ts",
+      "tools/ui/src/lib/utils/attachment-display.ts"
+    ],
+    "indexFallback": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-utils.ts"
+    ],
+    "kwarg": [
+      "tools/ui/src/lib/utils/chat-template-thinking-detector.ts"
+    ],
+    "label": [
+      "tools/ui/src/lib/utils/formatters.ts",
+      "tools/ui/src/lib/utils/progress.ts"
+    ],
+    "language": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/plugins/rehype/code-block-utils.ts",
+      "tools/ui/src/lib/components/app/content/MarkdownContent/plugins/rehype/pre-transform.ts"
+    ],
+    "last": [
+      "tools/ui/src/lib/services/models.service.ts"
+    ],
+    "lastModel": [
+      "tools/ui/src/lib/stores/models.svelte.ts"
+    ],
+    "lex": [
+      "scripts/jinja/jinja-tester.py"
+    ],
+    "link": [
+      "scripts/serve-static.js"
+    ],
+    "log_suffix": [
+      "scripts/snapdragon/qdc/tests/linux/run_linux.sh"
+    ],
+    "magenta": [
+      "scripts/debug-test.sh"
+    ],
+    "markup": [
+      "tools/ui/src/lib/utils/svg-shadow.ts"
+    ],
+    "max_tokens": [
+      "tools/server/bench/script.js"
+    ],
+    "media": [
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "message": [
+      "tools/ui/src/lib/services/mcp.service.ts",
+      "tools/ui/src/lib/stores/conversations.svelte.ts",
+      "tools/ui/src/lib/stores/mcp.svelte.ts",
+      "tools/ui/src/lib/utils/api-fetch.ts",
+      "tools/ui/src/lib/utils/cap-img-size.ts",
+      "tools/ui/src/lib/utils/request-helpers.ts",
+      "tools/ui/src/lib/utils/svg-to-png.ts",
+      "tools/ui/src/lib/utils/webp-to-png.ts"
+    ],
+    "method": [
+      "tools/ui/src/lib/services/mcp.service.ts"
+    ],
+    "migratedCount": [
+      "tools/ui/src/lib/services/migration.service.ts"
+    ],
+    "mimeType": [
+      "tools/ui/src/lib/utils/cap-img-size.ts",
+      "tools/ui/src/lib/utils/data-url.ts"
+    ],
+    "min_os_version": [
+      "build-xcframework.sh"
+    ],
+    "minutes": [
+      "tools/ui/src/lib/utils/formatters.ts"
+    ],
+    "mnt_models": [
+      "ci/run.sh"
+    ],
+    "model": [
+      "tools/server/bench/script.js",
+      "tools/ui/src/lib/utils/stream-identity.ts"
+    ],
+    "modelId": [
+      "tools/ui/src/lib/stores/models.svelte.ts"
+    ],
+    "model_bf16": [
+      "ci/run.sh"
+    ],
+    "model_f16": [
+      "ci/run.sh"
+    ],
+    "model_q2_k": [
+      "ci/run.sh"
+    ],
+    "model_q3_k": [
+      "ci/run.sh"
+    ],
+    "model_q4_0": [
+      "ci/run.sh"
+    ],
+    "model_q4_1": [
+      "ci/run.sh"
+    ],
+    "model_q4_k": [
+      "ci/run.sh"
+    ],
+    "model_q5_0": [
+      "ci/run.sh"
+    ],
+    "model_q5_1": [
+      "ci/run.sh"
+    ],
+    "model_q5_k": [
+      "ci/run.sh"
+    ],
+    "model_q6_k": [
+      "ci/run.sh"
+    ],
+    "model_q8_0": [
+      "ci/run.sh"
+    ],
+    "module_path": [
+      "build-xcframework.sh"
+    ],
+    "n_prompt": [
+      "tools/server/bench/script.js"
+    ],
+    "name": [
+      "tools/ui/src/lib/stores/agentic.svelte.ts",
+      "tools/ui/src/lib/stores/mcp.svelte.ts",
+      "tools/ui/src/lib/stores/tools.svelte.ts",
+      "tools/ui/src/lib/utils/formatters.ts",
+      "tools/ui/src/lib/utils/uri-template.ts"
+    ],
+    "newKey": [
+      "tools/ui/src/lib/services/migration.service.ts"
+    ],
+    "next": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/plugins/rehype/code-block-utils.ts"
+    ],
+    "nextId": [
+      "tools/ui/tests/unit/continue-intent.test.ts"
+    ],
+    "normal": [
+      "scripts/debug-test.sh"
+    ],
+    "openTag": [
+      "tools/ui/scripts/favicon-colorize.ts"
+    ],
+    "optBreak": [
+      "tools/ui/src/lib/utils/latex-protection.ts"
+    ],
+    "orientation": [
+      "tools/ui/pwa-assets.config.ts",
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "origin": [
+      "tools/ui/src/lib/stores/mcp.svelte.ts"
+    ],
+    "outputPercent": [
+      "tools/ui/src/lib/hooks/use-processing-state.svelte.ts"
+    ],
+    "output_lib": [
+      "build-xcframework.sh"
+    ],
+    "paddingPct": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "parentId": [
+      "tools/ui/src/lib/services/database.service.ts"
+    ],
+    "part": [
+      "tools/ui/src/lib/constants/url.ts"
+    ],
+    "path": [
+      "tools/ui/src/lib/stores/mcp.svelte.ts",
+      "tools/ui/src/lib/utils/api-fetch.ts"
+    ],
+    "path_models": [
+      "ci/run.sh"
+    ],
+    "path_wiki": [
+      "ci/run.sh"
+    ],
+    "pathname": [
+      "tools/ui/src/lib/utils/url.ts"
+    ],
+    "percent": [
+      "tools/ui/src/lib/hooks/use-processing-state.svelte.ts"
+    ],
+    "pixelH": [
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "pixelW": [
+      "tools/ui/scripts/vite-plugin-splash-screen.ts"
+    ],
+    "platform": [
+      "build-xcframework.sh"
+    ],
+    "platform_name": [
+      "build-xcframework.sh"
+    ],
+    "plist_path": [
+      "build-xcframework.sh"
+    ],
+    "png": [
+      "tools/ui/tests/unit/jpeg-orientation.test.ts"
+    ],
+    "prefix": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/plugins/rehype/code-block-utils.ts"
+    ],
+    "presetName": [
+      "CMakePresets.json"
+    ],
+    "promptName": [
+      "tools/ui/src/lib/stores/mcp.svelte.ts"
+    ],
+    "radius": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "reason": [
+      "tools/ui/src/lib/utils/modality-file-validation.ts"
+    ],
+    "red": [
+      "scripts/debug-test.sh"
+    ],
+    "reference_string": [
+      "tests/test-lora-conversion-inference.sh"
+    ],
+    "release_dir": [
+      "build-xcframework.sh"
+    ],
+    "reqUrl": [
+      "scripts/serve-static.js"
+    ],
+    "resourceName": [
+      "tools/ui/src/lib/stores/mcp-resources.svelte.ts"
+    ],
+    "rest": [
+      "tools/ui/src/lib/utils/uri-template.ts"
+    ],
+    "result": [
+      "tools/ui/src/lib/stores/agentic.svelte.ts"
+    ],
+    "ret": [
+      "ggml/src/ggml-et/et-kernels/scripts/check_unimplemented_instructions.sh"
+    ],
+    "rootDomain": [
+      "tools/ui/src/lib/stores/mcp.svelte.ts"
+    ],
+    "roundBracket": [
+      "tools/ui/src/lib/utils/latex-protection.ts"
+    ],
+    "sanitizedName": [
+      "tools/ui/src/lib/stores/conversations.svelte.ts"
+    ],
+    "scale": [
+      "tools/ui/scripts/favicon-colorize.ts"
+    ],
+    "scalePct": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "scheme": [
+      "tools/ui/src/lib/utils/uri-template.ts"
+    ],
+    "script_dir": [
+      "scripts/git-bisect.sh"
+    ],
+    "sdk_name": [
+      "build-xcframework.sh"
+    ],
+    "secondLast": [
+      "tools/ui/src/lib/services/models.service.ts"
+    ],
+    "seconds": [
+      "tools/ui/src/lib/utils/formatters.ts"
+    ],
+    "section": [
+      "tools/ui/src/lib/services/router.service.ts"
+    ],
+    "serverId": [
+      "tools/ui/src/lib/stores/mcp.svelte.ts",
+      "tools/ui/src/lib/stores/tools.svelte.ts"
+    ],
+    "serverName": [
+      "tools/ui/src/lib/services/mcp.service.ts",
+      "tools/ui/src/lib/stores/mcp-resources.svelte.ts",
+      "tools/ui/src/lib/stores/mcp.svelte.ts"
+    ],
+    "server_url": [
+      "tools/server/bench/script.js"
+    ],
+    "serversChanged": [
+      "tools/ui/src/lib/services/migration.service.ts"
+    ],
+    "single_test_command": [
+      "scripts/debug-test.sh"
+    ],
+    "single_test_name": [
+      "scripts/debug-test.sh"
+    ],
+    "size": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "sourceConvId": [
+      "tools/ui/src/lib/services/database.service.ts"
+    ],
+    "sourceDir": [
+      "CMakePresets.json"
+    ],
+    "sourceIcon": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "source_sha": [
+      "tests/test-release-workflow-static.py"
+    ],
+    "squareBracket": [
+      "tools/ui/src/lib/utils/latex-protection.ts"
+    ],
+    "src": [
+      "tools/ui/src/lib/components/app/content/MarkdownContent/markdown-handlers.ts",
+      "tools/ui/src/lib/utils/image-error-fallback.ts"
+    ],
+    "sseMsg": [
+      "tools/ui/src/lib/services/mcp.service.ts"
+    ],
+    "status": [
+      "tools/ui/src/lib/services/tools.service.ts"
+    ],
+    "style": [
+      "tools/ui/src/lib/utils/svg-shadow.ts"
+    ],
+    "supported_platform": [
+      "build-xcframework.sh"
+    ],
+    "targetFilename": [
+      "tools/ui/scripts/make-icons-circular.js"
+    ],
+    "temp_dir": [
+      "build-xcframework.sh"
+    ],
+    "test_number": [
+      "scripts/debug-test.sh"
+    ],
+    "test_suite": [
+      "scripts/debug-test.sh"
+    ],
+    "timeoutMs": [
+      "tools/ui/src/lib/services/sandbox.service.ts"
+    ],
+    "timestamp": [
+      "tools/ui/src/lib/utils/audio-recording.ts"
+    ],
+    "tld": [
+      "tools/ui/src/lib/constants/url.ts"
+    ],
+    "token": [
+      "tools/ui/tests/client/mcp-server-form.svelte.test.ts"
+    ],
+    "toolName": [
+      "tools/ui/src/lib/services/sandbox.service.ts",
+      "tools/ui/src/lib/stores/mcp.svelte.ts"
+    ],
+    "totalMigrated": [
+      "tools/ui/src/lib/utils/legacy-migration.ts"
+    ],
+    "translateX": [
+      "tools/ui/scripts/favicon-colorize.ts"
+    ],
+    "translateY": [
+      "tools/ui/scripts/favicon-colorize.ts"
+    ],
+    "transportType": [
+      "tools/ui/src/lib/services/mcp.service.ts"
+    ],
+    "trimmedConvId": [
+      "tools/ui/src/lib/stores/conversations.svelte.ts"
+    ],
+    "trimmedModel": [
+      "tools/ui/src/lib/utils/model-names.ts"
+    ],
+    "trimmedOrg": [
+      "tools/ui/src/lib/utils/model-names.ts"
+    ],
+    "truncated": [
+      "tools/ui/tests/unit/jpeg-orientation.test.ts"
+    ],
+    "update": [
+      "scripts/snapdragon/qdc/tests/utils.py"
+    ],
+    "uri": [
+      "tools/ui/src/lib/services/mcp.service.ts",
+      "tools/ui/src/lib/stores/mcp-resources.svelte.ts",
+      "tools/ui/src/lib/stores/mcp.svelte.ts"
+    ],
+    "url": [
+      "scripts/hf.sh",
+      "tools/ui/src/lib/services/mcp.service.ts"
+    ],
+    "var": [
+      "tools/ui/tests/unit/clipboard.test.ts"
+    ],
+    "wiki_test": [
+      "ci/run.sh"
+    ],
+    "yellow": [
+      "scripts/debug-test.sh"
+    ]
+  }
+}
