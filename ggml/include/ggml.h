@@ -438,7 +438,12 @@ extern "C" {
         GGML_TYPE_Q3_1    = 46,
         GGML_TYPE_Q2_0S   = 47,
         GGML_TYPE_Q2_1    = 48,
-        GGML_TYPE_COUNT   = 49,
+        // QUANT-GOD fork types (docs/QUANT-GOD.md): IQ2_BN row-interleaved
+        // 2.0 bpw (ik_llama.cpp port) + Q8_K64 companion. Values pinned to the
+        // Windows tree's enum so GGUFs stay compatible across machines.
+        GGML_TYPE_IQ2_BN  = 60,
+        GGML_TYPE_Q8_K64  = 61,
+        GGML_TYPE_COUNT   = 62,
     };
 
     // precision

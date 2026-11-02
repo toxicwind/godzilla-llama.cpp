@@ -40,6 +40,9 @@
 #include "vendors/cuda.h"
 #endif // defined(GGML_USE_HIP)
 
+/** Negative-infinity init for softmax max-logit reduction (cross-entropy-loss). */
+__device__ __forceinline__ float ggml_cuda_neginf_f() { return -INFINITY; }
+
 #define STRINGIZE_IMPL(...) #__VA_ARGS__
 #define STRINGIZE(...) STRINGIZE_IMPL(__VA_ARGS__)
 

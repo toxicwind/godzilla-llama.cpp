@@ -244,6 +244,17 @@ typedef struct {
 } block_nvfp4;
 static_assert(sizeof(block_nvfp4) == sizeof(uint8_t)*(QK_NVFP4/QK_NVFP4_SUB) + QK_NVFP4/2, "wrong nvfp4 block size/padding");
 
+// QUANT-GOD IQ2_BN (ggml-iq2-bn.c): row-interleaved 2.0 bpw, 256-elem blocks,
+// 2 bits/value packed 4-per-byte. Declarations were missing from the merged
+// Linux tree — the port landed the impl files only (docs/QUANT-GOD.md pins
+// enum values 60/61; the block lives here, after the other quant blocks).
+#define QK_IQ2BN 256
+#define QK_IQ1BN QK_IQ2BN
+typedef struct {
+    uint8_t qs[QK_IQ2BN / 4]; // 2-bit packed values (4 values per byte)
+} block_iq2_bn;
+static_assert(sizeof(block_iq2_bn) == QK_IQ2BN / 4, "wrong iq2_bn block size/padding");
+
 #define QK5_0 32
 typedef struct {
     ggml_half d;           // delta

@@ -75,3 +75,16 @@ IQ2_BN merged to `main` after enum audit (60–61 vs BitNet 56–59 / Turbo 42�
 **Verdict:** **Merged and kept** on `main`. Remaining deferred: tighter vec_dot parity vs ik, `llama-quant` ftype wiring, end-to-end IQ2_BN GGUF inference, GPU `MUL_MAT` IQ2_BN smoke.
 
 **Merge commit:** `14d6b1b77` (`merge quant-god IQ2_BN into main`). Stability + `--allow-extended-ctx` on `main` @ `2a55d3c4d` (2026-07-01).
+
+## Linux build correction (2026-11-02 — code is absolute)
+
+The line above is a **red herring on Linux**: the first Linux CUDA build
+(`cmake -DGGML_CUDA=ON`, 3090) failed — `block_iq2_bn` / `QK_IQ1BN` /
+`GGML_TYPE_IQ2_BN` had **no declarations in this tree** (enum entry, block
+struct, and QK const were absent from `ggml/include/ggml.h` +
+`ggml/src/ggml-common.h`), and `mmvq.cu` referenced `vec_dot_iq2_bn_q8_1` /
+`VDR_IQ2_BN_Q8_1_MMVQ` whose implementations exist **nowhere in the Linux tree**
+(Windows-only per `J:\LLM\engines` lineage). "Merged" described the Windows
+prebuilt, not the source. 2026-11-02 fixes: enum 60/61, `block_iq2_bn`,
+`QK_IQ2BN`/`QK_IQ1BN`, `ggml_cuda_neginf_f`; the IQ2_BN CUDA dot path is
+**still unported on Linux** (decoupled from the dispatchers so the rest builds).
